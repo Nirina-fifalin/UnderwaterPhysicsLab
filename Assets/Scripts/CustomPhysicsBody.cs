@@ -2,12 +2,16 @@ using UnityEngine;
 
 public class CustomPhysicsBody : MonoBehaviour
 {
+    [Header("Physical Properties")]
     public float mass = 1f;
+    public float radius = 0.5f;
+
+    [Header("Environment")]
     public float gravity = 9.81f;
     public float airDensity = 1.225f;
+
+    [Header("Aerodynamics")]
     public float dragCoefficient = 0.47f;
-    public float radius = 0.5f;
-    public float airDrag = 0.1f;
 
     private Vector3 velocity;
 
