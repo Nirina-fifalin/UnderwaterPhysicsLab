@@ -7,6 +7,7 @@ public class CustomPhysicsBody : MonoBehaviour
     public float airDensity = 1.225f;
     public float dragCoefficient = 0.47f;
     public float radius = 0.5f;
+    public float airDrag = 0.1f;
 
     private Vector3 velocity;
 
